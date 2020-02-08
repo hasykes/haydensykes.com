@@ -92,7 +92,7 @@ class Main extends React.Component {
             </div>
             <div className="field half">
               <label htmlFor="email">Email</label>
-              <input type="email" name="email" id="email" requried/>
+              <input type="email" name="email" id="email" required/>
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
