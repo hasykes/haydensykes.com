@@ -85,7 +85,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form name="contact" method="post" action="/submitted" data-netlify="true">
+          <form name="contact" method="POST" action="/submitted" data-netlify="true" enctype="multipart/form-data">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" required/>
@@ -100,7 +100,7 @@ class Main extends React.Component {
             </div>
             <ul className="actions">
               <li>
-                <input type="submit" value="Send Message" className="special" />
+                <button type="submit" className="special" >Send Message</button>
               </li>
               <li>
                 <input type="reset" value="Reset" />
