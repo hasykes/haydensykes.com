@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 const FoundWaterBottle = () => (
   <Layout>
     <h1>You found my water-bottle!!!</h1>
-<p>You're actually the 1000th person (rough estimate) to have found it.  I honestly don't know how I continue to lose it.</p>
+<p>You're actually the 2nd person to have found it.</p>
 <p>Would you mind contacting me via one of the following so I don't have to buy another?</p>    
 <ul>
   <li>Call or Text: <a href="tel:+1-404-931-2658">404-931-2658</a></li>
@@ -14,7 +14,7 @@ const FoundWaterBottle = () => (
 </ul>
 
 <p>I sincerely appreciate you helping me out!</p>
-    <Link to="/">Go to my homepage</Link>
+    <Link to="/">Checkout my Homepage</Link>
   </Layout>
 )
 
