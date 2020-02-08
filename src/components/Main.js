@@ -105,6 +105,7 @@ class Main extends React.Component {
               <li>
                 <input type="reset" value="Reset" />
               </li>
+              <input type="hidden" name="hidden-contact" value="contact" />
             </ul>
           </form>
           <ul className="icons">
