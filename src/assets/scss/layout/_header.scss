@@ -220,15 +220,21 @@
     }
 
     .logo {
-      width: 4.75rem;
-      height: 4.75rem;
-      line-height: 4.75rem;
+      width: 15rem;
+      height: 15rem;
+      line-height: 15rem;
 
       .icon {
         &:before {
           font-size: 1.75rem;
         }
       }
+    }
+
+    .logo-image {
+      width: 15rem;
+      height: 15rem;
+      margin-left: -5px;
     }
 
     .content {
