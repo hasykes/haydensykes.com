@@ -34,7 +34,7 @@ class Main extends React.Component {
           </span>
           <p>
             Working in Cloud Services for Manhattan Associates has been (and continues to be) a fantastic learning experience.  In my current role, I focus on improving our client's experience as we transition to a SaaS model.  Part of the fun of this role is that I am constantly challenged to learn new tech stacks and improve my technical knowledge to ensure client's succeed.
-            Prior to this, I worked as an implementation consultant with expertise in our iSeries Warehouse Management Software.  If you're unfamiliar with IBM iSeries, have a look at my <a href="#work">Free Code Camp API project</a> which is inspiried by the iSeries design. 
+            Prior to this, I worked as an implementation consultant with expertise in our iSeries Warehouse Management Software.  If you're unfamiliar with IBM iSeries, have a look at my <a target="_blank" rel="noreferrer noopener"href="https://codepen.io/hasykes/full/wLomgm">Free Code Camp API project</a> which is inspiried by the iSeries design. 
           </p>
           <p>
             Life's not all about work.  In my free time, I enjoy building all types of things; both physical and virtual.  On any given day I could be working on a craft with my Fiancee, building shelving for our home, or tinkering on the web to improve my skills.  
