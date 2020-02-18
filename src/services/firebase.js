@@ -13,8 +13,15 @@ messagingSenderId: "1093445041995",
 //measurementId: "G-57CTY5JCX8"
 }
 
+//!Gatsby build fails because window isn't defined
+//!this check keeps it from failing and works
+//TODO rebuild firebase as a class to initialize with a ref prop?
+let counters;
+if (typeof window !== 'undefined') {
+    firebase.initializeApp(config);
+    const database = firebase.database()
+    counters = database.ref('/counters/') 
+  }
 
-firebase.initializeApp(config);
-const database = firebase.database()
 
-export const countersRef = database.ref('/counters/')
+  export const countersRef = counters
