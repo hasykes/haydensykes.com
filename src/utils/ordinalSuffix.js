@@ -28,3 +28,5 @@ const ordinalSuffix = (num) => {
 
     return num+'th'
 }
+
+export default ordinalSuffix

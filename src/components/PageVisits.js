@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import {countersRef} from '../services/firebase'
+import ordinalSuffix from '../utils/ordinalSuffix'
 
 class PageVisits extends React.Component {
 
@@ -35,7 +36,7 @@ class PageVisits extends React.Component {
     
     return (
         <span>
-            {`${this.state.foundWaterBottle}`}
+            {`${ordinalSuffix(this.state.foundWaterBottle)}`}
         </span>
         )
 }
