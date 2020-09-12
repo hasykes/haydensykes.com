@@ -38,25 +38,42 @@ class IndexPage extends React.Component {
   setWrapperRef(node) {
     this.wrapperRef = node;
   }
+  //debugging
+  checkState(loc){
+    console.log('state after update',loc,this.state)
+  }
 
   handleOpenArticle(article) {
-
+    console.log(article,this.state)
+    if(!this.state.isArticleVisible){
     this.setState({
       isArticleVisible: !this.state.isArticleVisible,
       article
-    })
+    },this.checkState('if'))
 
     setTimeout(() => {
       this.setState({
         timeout: !this.state.timeout
-      })
+      },this.checkState('1st settimeout'))
     }, 325)
-
+  
     setTimeout(() => {
       this.setState({
         articleTimeout: !this.state.articleTimeout
-      })
+      },this.checkState('2nd settimeout'))
     }, 350)
+    
+  }else{
+    this.setState({
+      article
+  },this.checkState('else'))
+  }
+
+
+
+
+
+  
 
   }
 
@@ -102,6 +119,7 @@ class IndexPage extends React.Component {
               article={this.state.article}
               onCloseArticle={this.handleCloseArticle}
               setWrapperRef={this.setWrapperRef}
+              onOpenArticle={this.handleOpenArticle}
             />
             <Footer timeout={this.state.timeout} />
           </div>

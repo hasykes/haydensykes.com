@@ -10,8 +10,8 @@ const Header = props => (
     <div className="content">
       <div className="inner">
         <h1>Hayden A. Sykes</h1>
-        <p>Full stack developer based out of Atlanta, GA with a background in software consulting.</p>
-        <p>Have a website that needs building or a project that needs guidance? <span onClick={() => props.onOpenArticle('contact')}>Let's get in touch!</span></p>
+        <p>Software consultant based in Atlanta, GA with a penchant for making things work.</p>
+        <p>Have a website that needs building or a project that needs guidance? <span className='clickable' onClick={() => props.onOpenArticle('contact')}>Let's get in touch!</span></p>
       </div>
     </div>
     <nav>
