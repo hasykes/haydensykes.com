@@ -78,6 +78,14 @@
     margin-left: -5px;
   }
 
+  .clickable {
+    border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+  }
+
+  .clickable:hover {
+    cursor: pointer;
+  }
+
   .content {
     border-style: solid;
     border-color: _palette(border);
@@ -240,7 +248,7 @@
 
     .content {
       .inner {
-        padding: 2.5rem 1rem;
+        padding: 1.5rem 1rem;
         max-width: 75vw;
       }
 
@@ -255,7 +263,7 @@
 
     .content {
       .inner {
-        padding: 2.5rem 0;
+        padding: 1.5rem 0;
         max-width: 75vw;
       }
     }

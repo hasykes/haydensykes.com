@@ -38,7 +38,7 @@ class Main extends React.Component {
           </p>
           <p>
             But, life's not all about work.  In my free time, I enjoy building all types of things; both physical and virtual.  On any given day I could be working on a craft with my Fiancée, building shelving for our home, or tinkering on the web to improve my skills.  
-            If I'm not doing one of those, I'm probably listening to music, acting as sous-chef, or out for a run.
+            If I'm not doing one of those, I'm probably listening to music, acting as sous-chef, or climbing.
           </p>
           {close}
         </article>
@@ -54,8 +54,13 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
+          <p>I'm actively looking to move my career into pre-sales engineering.  If you or your company are looking, I would love to talk about how I can support your Sales team.</p>
+          <p className="center callToAction"><a onClick={() => {this.props.onOpenArticle('contact')}}>Contact Me</a></p>
           <p>
-          
+            I have held many roles throughout my career at Manhattan Associates, from Software Consultant to Client Owner to helping build and manage our Automated Regression Testing (ART) team.  Each position has come with its own set of inevitable challenges and rewards, best of all being the amazing people I work with daily.
+          </p>
+          <p>In my current role (Sole iSeries SaaS Client Owner and managing ART),  my ability to handle multiple complex problems is regularly challeneged.  As the sole iSeries Client Owner I am respobsible for maintaing customer environments across a swath of industries (from Grocery to Footwear to Dental supplies and more).  These customers trust Manhattan to provide an always ready and stable environment and I (along with my amazing team) ensure that promise is kept.  Furthermore, I am working to normalize the management of the iSeries environments to ensure alignment with our entire Managed Services business.  
+          When not working on iSeries, I shift my focus to our global ART team, specifically working to build out ART for our Manhattan Active Omni (MAO) platform.  If you'd like to learn more about how we are using ART to improve our business, <a onClick={() => {this.props.onOpenArticle('contact')}}>please feel free to drop me a note.</a>
           </p>
           {close}
         </article>
@@ -72,7 +77,11 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-          Under Development
+            Music is a big part of my day to day life.  If I'm working and something needs focus to be done, I immediately pick out an album, put on my headphones and get to work.  
+          </p>
+          <p>Here's an example of one band I can't get enough of right now:</p>
+          <p className="center">
+          <iframe  src="https://open.spotify.com/embed/track/6gSVpASv2ElWCX6cOqJWLM" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </p>
           {close}
         </article>
