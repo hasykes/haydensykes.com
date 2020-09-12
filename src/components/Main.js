@@ -37,7 +37,7 @@ class Main extends React.Component {
             Prior to this, I worked as an implementation consultant with expertise in our iSeries Warehouse Management Software.  If you're unfamiliar with IBM iSeries, have a look at my <a target="_blank" rel="noreferrer noopener"href="https://codepen.io/hasykes/full/wLomgm">Free Code Camp API project</a> which is inspiried by the iSeries design. 
           </p>
           <p>
-            Life's not all about work.  In my free time, I enjoy building all types of things; both physical and virtual.  On any given day I could be working on a craft with my Fiancee, building shelving for our home, or tinkering on the web to improve my skills.  
+            But, life's not all about work.  In my free time, I enjoy building all types of things; both physical and virtual.  On any given day I could be working on a craft with my Fiancée, building shelving for our home, or tinkering on the web to improve my skills.  
             If I'm not doing one of those, I'm probably listening to music, acting as sous-chef, or out for a run.
           </p>
           {close}
@@ -55,7 +55,7 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>
-            Under Development
+          
           </p>
           {close}
         </article>
@@ -109,7 +109,7 @@ class Main extends React.Component {
             </ul>
             <p class="hidden" hidden>
               <label>
-               Don't fill this out!!!
+               !!!Don't fill this out!!!
                <input name="bot-field"/>
                </label>
             </p>
