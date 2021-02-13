@@ -42,7 +42,7 @@ const Layout = ({ children, location}) => {
             title={data.site.siteMetadata.title}
             meta={[
               { name: 'description', content: 'A personal website for Hayden Sykes.' },
-              { name: 'keywords', content: 'hayden,sykes,website,developer,cloud,consulting,consultant,web dev,' },
+              { name: 'keywords', content: 'hayden,sykes,website,developer,cloud,consulting,consultant,web dev,sales,engineering,solution,sales engineering,solutionts architect,robotics,design,supply chain,warehousing,3pl,retail,automation' },
             ]}
           >
             <html lang="en" />
