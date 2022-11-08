@@ -12,7 +12,7 @@
   object-fit: contain;
   width: 100%;
   height: auto;
-  max-height: 500px;
+  max-height: 80%;
   margin-bottom: -2em;
   padding: 0;
   z-index: 999;
@@ -20,21 +20,38 @@
 
 .name {
   font-family: "Nunito";
+  font-variant: small-caps;
+  font-weight: bold;
   width: 100%;
   text-align: center;
   margin: 0;
-  padding-left: 1em;
+  padding-left: 10px;
   color: #0a4950;
+
+  font-size: 2em;
 }
 
 .h {
-  font-style: Bold;
-  font-size: 1.2em;
+  font-weight: bolder;
+  font-size: 2.1em;
   color: #f87d5c;
 }
 
 .s {
-  font-style: Bold;
-  font-size: 1.2em;
+  font-weight: bolder;
+  font-size: 2.1em;
   color: #f9cb5e;
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 700px) {
+  .name {
+    margin-top: 1.2em;
+    font-size: 1.2em;
+  }
+
+  .h,
+  .s {
+    font-size: 1.4em;
+  }
 }
