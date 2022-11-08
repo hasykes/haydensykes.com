@@ -1,6 +1,6 @@
 .container {
   height: 100%;
-  padding: 1em 6em;
+  padding: 1em 4em;
 
   display: flex;
   align-items: center;
@@ -45,13 +45,16 @@
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 700px) {
+  .container {
+    padding: 1em 3em;
+  }
   .name {
-    margin-top: 1.2em;
-    font-size: 1.2em;
+    margin-top: 0.5em;
+    font-size: 1.4em;
   }
 
   .h,
   .s {
-    font-size: 1.4em;
+    font-size: 1.7em;
   }
 }
