@@ -1,0 +1,39 @@
+.container {
+  height: 100%;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.logoImage {
+  object-fit: none;
+  width: 100%;
+  height: 400px;
+  margin-bottom: -2em;
+  padding: 0;
+  z-index: 999;
+}
+
+.name {
+  font-family: "Nunito";
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding-left: 1em;
+  color: #0a4950;
+}
+
+.h {
+  font-style: Bold;
+  font-size: 1.2em;
+  color: #f87d5c;
+}
+
+.s {
+  font-style: Bold;
+  font-size: 1.2em;
+  color: #f9cb5e;
+}
