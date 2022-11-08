@@ -6,6 +6,7 @@ export default function Logo() {
     <div className={styles.container}>
       <Image
         src="/images/HS_logo_glitch.png" // Route of the image file
+        unoptimized={true}
         height={144} // Desired size with correct aspect ratio
         width={122} // Desired size with correct aspect ratio
         alt="Hayden Sykes Logo"
