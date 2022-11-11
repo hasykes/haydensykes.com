@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Layout from "../components/Layout";
 import Logo from "../components/Logo";
+import Landing from "../components/Landing";
 
 export default function Home() {
   return (

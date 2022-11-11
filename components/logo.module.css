@@ -1,3 +1,8 @@
+@font-face {
+  font-family: customFont;
+  src: url("../public/fonts/Reglisse/Reglisse_Back.otf");
+}
+
 .container {
   height: 100%;
   padding: 1em 4em;
@@ -13,19 +18,18 @@
   width: 100%;
   height: auto;
   max-height: 80%;
-  margin-bottom: -2em;
+  margin-bottom: -4em;
+  margin-left: -35px;
   padding: 0;
   z-index: 999;
 }
 
 .name {
-  font-family: "Nunito";
-  font-variant: small-caps;
-  font-weight: bold;
+  font-family: customFont, "Nunito";
+  letter-spacing: 0.1em;
   width: 100%;
   text-align: center;
   margin: 0;
-  padding-left: 10px;
   color: #0a4950;
 
   font-size: 2em;

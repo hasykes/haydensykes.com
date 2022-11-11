@@ -1,0 +1,48 @@
+.gridContainer {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 64px 1fr 64px;
+  grid-template-areas:
+    "header header header header"
+    "main main side side"
+    "footer footer footer footer";
+}
+
+.nav {
+  grid-area: header;
+  background-color: papayawhip;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.logoImage {
+  height: 100%;
+  margin-left: -2em;
+  object-fit: contain;
+}
+
+.itemB {
+  grid-area: main;
+  background-color: blue;
+  width: 100%;
+  height: 100%;
+}
+
+.itemC {
+  grid-area: side;
+  background-color: green;
+  width: 100%;
+  height: 100%;
+}
+
+.itemD {
+  grid-area: footer;
+  background-color: yellow;
+  width: 100%;
+  height: 100%;
+}
