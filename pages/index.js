@@ -32,14 +32,19 @@ export default function Home() {
         ></link>
         
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-80KDYLLH1E" strategy="afterInteractive" />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-80KDYLLH1E');
-          `}
+        <Script 
+          id="google-analytics" 
+          strategy="afterInteractive">
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-XXXXXXX', {
+                page_path: window.location.pathname,
+              });
+            `,
+            }}
         </Script>
       </Head>
       <Logo />
