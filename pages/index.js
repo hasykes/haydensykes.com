@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Layout from "../components/Layout";
 import Logo from "../components/Logo";
+import Script from 'next/script'
 
 export default function Home() {
   return (
@@ -29,6 +30,17 @@ export default function Home() {
           rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Nunito"
         ></link>
+        
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-80KDYLLH1E" strategy="afterInteractive" />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-80KDYLLH1E');
+          `}
+        </Script>
       </Head>
       <Logo />
     </Layout>
