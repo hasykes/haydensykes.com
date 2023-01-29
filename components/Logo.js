@@ -12,10 +12,6 @@ export default function Logo() {
         alt="Hayden Sykes Logo"
         className={styles.logoImage}
       />
-      <h1 className={styles.name}>
-        <span className={styles.h}> H</span>ayden{" "}
-        <span className={styles.s}>S</span>ykes
-      </h1>
     </div>
   );
 }
